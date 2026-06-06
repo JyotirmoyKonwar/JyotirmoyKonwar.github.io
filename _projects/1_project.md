@@ -11,7 +11,9 @@ giscus_comments: false
 Developed a Multimodal end-to-end predictive pipeline for article price prediction using DeBERTa, ELECTRA, CLIPViT, attention layers and residual block.
 
 ### Tech Stack
+
 - Python, HuggingFace, PyTorch, Pandas, Numpy, NLTK, scikit-learn
 
 ### Links
+
 - **GitHub Repository**: [Amazon_ML_Challenge_2025](https://github.com/JyotirmoyKonwar/Amazon_ML_Challenge_2025)
