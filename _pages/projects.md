@@ -5,7 +5,7 @@ permalink: /projects/
 description: Selected machine learning, GenAI, and agentic AI projects.
 nav: true
 nav_order: 3
-display_categories: [work]
+display_categories: [Data Science, NLP, Agentic AI]
 horizontal: false
 ---
 
