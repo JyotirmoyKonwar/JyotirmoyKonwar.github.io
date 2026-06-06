@@ -1,14 +1,17 @@
 ---
 layout: page
-title: Agentic Derma Doctor Chatbot
-description: Multimodal medical RAG assistant with image and text understanding.
+title: Multi-View Multi-Objective Extractive Summarizer
+description: Explored Unsupervised Techniques for Extractive Document and Text Summarization.
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: NLP
+giscus_comments: false
 ---
 
-Developed and deployed an agentic multimodal medical assistant on Hugging Face Spaces.
+Designed a multi-objective clustering framework using NSGA-II and integrated multi-view document representations by combining TF-IDF, BERT, and FinBERT embeddings.
 
-- Combined a fine-tuned Swin Transformer for skin condition classification with a Retrieval-Augmented Generation pipeline.
-- Fine-tuned Qwen 2.5 1.5B on medical data using Unsloth.
-- Integrated LangChain and Pinecone to deliver context-aware medical responses from curated documents.
+### Tech Stack
+- Python, scikit-learn, HuggingFace, NLTK
+
+### Links
+- **GitHub Repository**: [MvMOC_VI](https://github.com/JyotirmoyKonwar/MvMOC_VI)

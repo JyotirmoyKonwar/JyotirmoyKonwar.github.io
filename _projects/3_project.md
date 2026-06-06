@@ -1,14 +1,18 @@
 ---
 layout: page
-title: Secure Multi-Tenant RAG System
-description: Role-aware private RAG for department-specific document access.
-img: assets/img/7.jpg
+title: Agent Derma Doc Chatbot
+description: Developed a Multimodal Multi Agent Skin Disease Chatbot.
+img: assets/img/1.jpg
 importance: 3
-category: work
+category: Agentic AI
+giscus_comments: false
 ---
 
-Implemented a secure RAG platform that supports role-specific access to organizational knowledge.
+Developed a Multimodal Multi Agent Skin Disease Chatbot using RAG, Fine-tuned Gemma3 270M and Fine-tuned Swin Transformer.
 
-- Built a LLaMA 3 based retrieval system with ChromaDB metadata filtering for access control.
-- Developed a FastAPI and Streamlit stack with login-gated routes and session persistence.
-- Used local inference workflows to preserve data privacy in sensitive retrieval scenarios.
+### Tech Stack
+- Python, HuggingFace, LangGraph, PyTorch, Transformers, LangChain, Unsloth
+
+### Links
+- **GitHub Repository**: [Agent_Derma_Doc_Chat](https://github.com/JyotirmoyKonwar/Agent_Derma_Doc_Chat)
+- **Live Demo**: [Agent_Derma_Doc on Hugging Face Spaces](https://huggingface.co/spaces/Jyo-K/Agent_Derma_Doc)

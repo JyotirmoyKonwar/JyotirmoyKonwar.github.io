@@ -1,14 +1,18 @@
 ---
 layout: page
-title: Smart Product Pricing Ensemble Model
-description: Multimodal ensemble for product pricing prediction at scale.
+title: Tiny Stories Diffusion Language Model
+description: A Small Diffusion Language Model to tell you and your kids tiny stories.
 img: assets/img/11.jpg
 importance: 5
-category: work
+category: NLP
+giscus_comments: false
 ---
 
-Built a high-performance multimodal model for the Amazon ML Challenge 2025.
+Diffusion-style Token Generation that iteratively decodes tokens where the model predicts tokens over multiple steps instead of traditional autoregressive (left-to-right) generation.
 
-- Ranked **52 out of 9000+ teams** (Top **0.6%**).
-- Designed a dual-stream architecture using DeBERTa, ELECTRA, and CLIP-ViT with attention-based fusion.
-- Improved stability and predictive performance with residual modeling blocks.
+### Tech Stack
+- Python, HuggingFace, PyTorch
+
+### Links
+- **GitHub Repository**: [Tiny_Stories_Diffusion](https://github.com/JyotirmoyKonwar/Tiny_Stories_Diffusion)
+- **Live Demo**: [Tiny_DiffLM_Story_Teller on Hugging Face Spaces](https://huggingface.co/spaces/Jyo-K/Tiny_DiffLM_Story_Teller/)

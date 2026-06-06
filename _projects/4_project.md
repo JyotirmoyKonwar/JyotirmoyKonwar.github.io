@@ -1,14 +1,18 @@
 ---
 layout: page
-title: Diffusion Language Model from Scratch
-description: Parallel token unmasking language modeling with diffusion.
-img: assets/img/1.jpg
+title: Whiteboard to Workflow Sprint Master
+description: Project for Google Deepmind - Vibe code with Gemini 3 on AI Studio on Kaggle.
+img: assets/img/7.jpg
 importance: 4
-category: work
+category: Agentic AI
+giscus_comments: false
 ---
 
-Designed and trained a diffusion-based language model from the ground up.
+Created a Multimodal AI tool for team meetings and brainstorming sessions for creating tickets and meeting MOMs.
 
-- Replaced autoregressive decoding with confidence-based token unmasking for parallel generation.
-- Built the training pipeline with SwiGLU activations, TikToken BPE encoding, mask-token injection, and RoPE.
-- Trained on TinyStories to benchmark coherence and generation behavior.
+### Tech Stack
+- Google AI Studio
+
+### Links
+- **GitHub Repository**: [Agent_Derma_Doc_Chat](https://github.com/JyotirmoyKonwar/Agent_Derma_Doc_Chat)
+- **Live Link**: [AI Studio App](https://ai.studio/apps/drive/1K2NRe5qLuijtNhGLEnTrZewc0i54lfQB)

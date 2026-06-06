@@ -1,14 +1,17 @@
 ---
 layout: page
-title: Teaching Gemma-3 to Reason via GRPO
-description: Three-stage SFT plus GRPO pipeline for reasoning improvement.
+title: Smart Product Pricing Ensemble Model
+description: Our solution for Amazon ML Challenge 2025 that got us AIR 52.
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: Data Science
+giscus_comments: false
 ---
 
-Built an end-to-end fine-tuning pipeline to improve reasoning quality for Gemma-3 using supervised fine-tuning and GRPO.
+Developed a Multimodal end-to-end predictive pipeline for article price prediction using DeBERTa, ELECTRA, CLIPViT, attention layers and residual block.
 
-- Improved answer accuracy by **12%** and reasoning quality by **47%**.
-- Designed a custom weighted reward function targeting logical coherence, mathematical precision, and strict XML compliance.
-- Structured training as a staged workflow for more stable optimization.
+### Tech Stack
+- Python, HuggingFace, PyTorch, Pandas, Numpy, NLTK, scikit-learn
+
+### Links
+- **GitHub Repository**: [Amazon_ML_Challenge_2025](https://github.com/JyotirmoyKonwar/Amazon_ML_Challenge_2025)

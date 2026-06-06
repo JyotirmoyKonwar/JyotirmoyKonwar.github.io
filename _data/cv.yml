@@ -75,43 +75,41 @@ cv:
           - Built an MFC C++ GUI for t-SNE-based cluster visualization of learned audio features.
 
     Projects:
-      - name: Diffusion Language Model from Scratch
-        summary: Built a diffusion-based language model replacing autoregressive decoding with confidence-based token unmasking.
-        highlights:
-          - Implemented training with SwiGLU, TikToken BPE, mask-token injection, and RoPE on TinyStories.
-          - Improved parallel generation quality for short-form story completion tasks.
-
-      - name: Teaching Gemma-3 to Reason via GRPO
-        summary: Developed an end-to-end three-stage SFT plus GRPO pipeline for reasoning-focused fine-tuning.
-        highlights:
-          - Improved answer accuracy by 12% and reasoning quality by 47%.
-          - Designed a weighted composite reward for logical coherence, mathematical precision, and XML compliance.
-
-      - name: Agentic Derma Doctor Chatbot
-        summary: Deployed an agentic multimodal medical RAG chatbot on Hugging Face Spaces using Gradio.
-        highlights:
-          - Combined Swin Transformer-based skin classification with a retrieval-augmented medical QA pipeline.
-          - Fine-tuned Qwen 2.5 1.5B with Unsloth and integrated LangChain with Pinecone for context-aware responses.
-
-      - name: Secure Multi-Tenant RAG System
-        summary: Built a secure LLaMA 3 RAG system with role-based access over tenant-specific document stores.
-        highlights:
-          - Implemented metadata-filtered retrieval in ChromaDB for secure role-specific results.
-          - Built FastAPI and Streamlit stack with session persistence and login-gated access.
-
       - name: Smart Product Pricing Ensemble Model
         summary: Designed a multimodal ensemble model for product pricing prediction in Amazon ML Challenge 2025.
         highlights:
           - Ranked 52 out of 9000+ teams (Top 0.6%).
           - Built DeBERTa, ELECTRA, and CLIP-ViT dual-stream architecture with attention-based fusion.
 
+      - name: Multi-View Multi-Objective Extractive Summarizer
+        summary: Explored Unsupervised Techniques for Extractive Document and Text Summarization.
+        highlights:
+          - Designed a multi-objective clustering framework using NSGA-II.
+          - Integrated multi-view document representations by combining TF-IDF, BERT, and FinBERT embeddings.
+
+      - name: Agentic Derma Doctor Chatbot
+        summary: Deployed an agentic multimodal medical RAG chatbot on Hugging Face Spaces using Gradio.
+        highlights:
+          - Combined Swin Transformer-based skin classification with a retrieval-augmented medical QA pipeline.
+          - Fine-tuned Gemma3 270M and Swin Transformer and integrated LangGraph/LangChain for context-aware responses.
+
+      - name: Whiteboard to Workflow Sprint Master
+        summary: Created a Multimodal AI tool for team meetings and brainstorming sessions for creating tickets and meeting MOMs.
+        highlights:
+          - Project for Google DeepMind - Vibe code with Gemini 3 on AI Studio on Kaggle.
+
+      - name: Tiny Stories Diffusion Language Model
+        summary: A Small Diffusion Language Model to tell you and your kids tiny stories.
+        highlights:
+          - Implemented diffusion-style token generation that iteratively decodes tokens where the model predicts tokens over multiple steps.
+
     Publications:
       - title: A comprehensive survey of DeepFake Technology to challenge fake media content
         authors:
-          - P. Saikia
           - J. Konwar
-        publisher: Manuscript in preparation
-        summary: Survey manuscript focused on DeepFake techniques, risks, and detection challenges.
+          - Dr. P. Saikia
+        publisher: IEEE Transaction (in-progress)
+        summary: A survey on the history of Deepfake generation and detection techniques and current SOTA architectures and models.
 
     Awards:
       - title: Amazon ML Challenge 2025
