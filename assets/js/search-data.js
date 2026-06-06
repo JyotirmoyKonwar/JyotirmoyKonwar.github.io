@@ -451,41 +451,31 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-teaching-gemma-3-to-reason-via-grpo",
-          title: 'Teaching Gemma-3 to Reason via GRPO',
-          description: "Three-stage SFT plus GRPO pipeline for reasoning improvement.",
+          section: "News",},{id: "projects-smart-product-pricing-ensemble-model",
+          title: 'Smart Product Pricing Ensemble Model',
+          description: "Our solution for Amazon ML Challenge 2025 that got us AIR 52.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-agentic-derma-doctor-chatbot",
-          title: 'Agentic Derma Doctor Chatbot',
-          description: "Multimodal medical RAG assistant with image and text understanding.",
+            },},{id: "projects-multi-view-multi-objective-extractive-summarizer",
+          title: 'Multi-View Multi-Objective Extractive Summarizer',
+          description: "Explored Unsupervised Techniques for Extractive Document and Text Summarization.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-secure-multi-tenant-rag-system",
-          title: 'Secure Multi-Tenant RAG System',
-          description: "Role-aware private RAG for department-specific document access.",
+            },},{id: "projects-agent-derma-doc-chatbot",
+          title: 'Agent Derma Doc Chatbot',
+          description: "Developed a Multimodal Multi Agent Skin Disease Chatbot.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-diffusion-language-model-from-scratch",
-          title: 'Diffusion Language Model from Scratch',
-          description: "Parallel token unmasking language modeling with diffusion.",
+            },},{id: "projects-whiteboard-to-workflow-sprint-master",
+          title: 'Whiteboard to Workflow Sprint Master',
+          description: "Project for Google Deepmind - Vibe code with Gemini 3 on AI Studio on Kaggle.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-smart-product-pricing-ensemble-model",
-          title: 'Smart Product Pricing Ensemble Model',
-          description: "Multimodal ensemble for product pricing prediction at scale.",
+            },},{id: "projects-tiny-stories-diffusion-language-model",
+          title: 'Tiny Stories Diffusion Language Model',
+          description: "A Small Diffusion Language Model to tell you and your kids tiny stories.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
