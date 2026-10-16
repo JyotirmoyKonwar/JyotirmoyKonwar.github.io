@@ -164,6 +164,8 @@ After pushing, check the **Actions** tab on GitHub. When **Deploy site** turns g
 ## Troubleshooting
 
 - **Build fails with a YAML error:** a value contains `:` or starts with a special character. Wrap it in quotes, e.g. `title: "Project: Part 2"`. Indentation in `_data/cv.yml` must use spaces, not tabs.
+- **Build fails with `No such file or directory @ rb_sysopen - assets/img/...`:** an image path in a page (e.g. `image:` in `_pages/about.md` or `img:` in a project) does not match a real file name in `assets/img/`. Names are case-sensitive.
+- **Prettier check fails on GitHub:** run `npm ci` once so your local Prettier matches the versions pinned in `package.json`, then `npx prettier . --write`.
 - **A project does not appear:** its `category` does not match any entry in `display_categories`.
 - **Changes are not visible:** wait for the Deploy action to finish, then hard-refresh (Ctrl+Shift+R).
 - **Theme questions:** see [`CUSTOMIZE.md`](CUSTOMIZE.md), [`INSTALL.md`](INSTALL.md), and [`TROUBLESHOOTING.md`](TROUBLESHOOTING.md), or the [al-folio repository](https://github.com/alshedivat/al-folio).

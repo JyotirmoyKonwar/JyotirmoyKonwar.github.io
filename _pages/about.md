@@ -6,7 +6,7 @@ subtitle: AI/ML Engineer · LLMs, Agentic AI & Multimodal Systems · Dual Degree
 
 profile:
   align: right
-  image: on_myputer.png
+  image: on_my_puter.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>India</p>
