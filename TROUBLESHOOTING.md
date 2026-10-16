@@ -1,6 +1,6 @@
 # Troubleshooting Guide
 
-This guide covers common issues and their solutions. For more information, see [FAQ.md](FAQ.md) or check [GitHub Discussions](https://github.com/alshedivat/al-folio/discussions).
+This guide covers common issues and their solutions. For more information, see [FAQ.md](https://github.com/alshedivat/al-folio/blob/main/FAQ.md) or check [GitHub Discussions](https://github.com/alshedivat/al-folio/discussions).
 
 <!--ts-->
 
@@ -42,7 +42,7 @@ This guide covers common issues and their solutions. For more information, see [
 **Solution:**
 
 1. Check your repository **Actions** tab for error messages
-2. Ensure you followed [Step 2 of QUICKSTART.md](QUICKSTART.md#step-2-configure-deployment-1-min) (Workflow permissions)
+2. Ensure you followed [Step 2 of QUICKSTART.md](https://github.com/alshedivat/al-folio/blob/main/QUICKSTART.md#step-2-configure-deployment-1-min) (Workflow permissions)
 3. Verify your `_config.yml` has correct `url` and `baseurl`:
    - Personal site: `url: https://username.github.io` and `baseurl:` (empty)
    - Project site: `url: https://username.github.io` and `baseurl: /repo-name/`
@@ -428,10 +428,10 @@ nav:
 If you're stuck:
 
 1. **Check existing documentation:**
-   - [QUICKSTART.md](QUICKSTART.md) – Get started in 5 minutes
+   - [QUICKSTART.md](https://github.com/alshedivat/al-folio/blob/main/QUICKSTART.md) – Get started in 5 minutes
    - [INSTALL.md](INSTALL.md) – Installation and deployment
    - [CUSTOMIZE.md](CUSTOMIZE.md) – Full customization guide
-   - [FAQ.md](FAQ.md) – Frequently asked questions
+   - [FAQ.md](https://github.com/alshedivat/al-folio/blob/main/FAQ.md) – Frequently asked questions
 
 2. **Search for your issue:**
    - [GitHub Discussions](https://github.com/alshedivat/al-folio/discussions) – Q&A from community

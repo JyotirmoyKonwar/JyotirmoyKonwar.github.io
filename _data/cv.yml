@@ -7,10 +7,10 @@ cv:
   image: ""
   website: https://jyotirmoykonwar.github.io
   summary: >
-    Integrated Dual Degree student (B.Tech CSE + M.Tech AI) at RGIPT with hands-on
-    experience in multimodal AI, GenAI, MLOps, and applied research. Focused on
-    building reliable, deployment-ready systems across NLP, computer vision, and
-    agentic workflows.
+    AI/ML engineer and Integrated Dual Degree student (B.Tech CSE + M.Tech AI) at RGIPT,
+    focused on LLMs, multimodal AI, agentic systems, model alignment, and efficient inference.
+    Experienced in building end-to-end ML systems across research, deployment, evaluation,
+    and MLOps.
 
   social_networks:
     - network: GitHub
@@ -22,137 +22,175 @@ cv:
     Education:
       - institution: Rajiv Gandhi Institute of Petroleum Technology
         location: India
-        area: Computer Science and Artificial Intelligence
-        studyType: Integrated Dual Degree (B.Tech + M.Tech)
+        area: B.Tech in Computer Science & M.Tech in Artificial Intelligence
+        studyType: Dual Degree
         start_date: 2022
         end_date: 2027
         highlights:
-          - Focused on machine learning, deep learning, and agentic AI systems.
+          - Focused on machine learning, deep learning, LLMs, and agentic AI systems.
 
     Experience:
       - company: Siemens
-        position: Upcoming GenAI Summer Intern
+        position: Technical Intern
         location: Bengaluru, India
-        start_date: 2026
-        end_date: 2026
+        start_date: 2026-05
+        end_date: 2026-07
         highlights:
-          - Will be working on GenAI and Agentic AI initiatives.
+          - Architected an **autonomous agentic code-repair Python package** leveraging AST traversal and dependency graphs, synthesizing verifiable production patches to resolve CI/CD build failures.
+          - Integrated a **multi-stage validation harness** (unit tests, property-based testing, formal checks) to verify patch soundness before automated staging, testing, and production rollout.
+          - Architected an **LLM benchmarking and evaluation framework** using **rubric-based scoring** for qualitative and quantitative evaluation of **automated legacy code migration** agents.
 
       - company: Freelance Project
         position: AI Engineer (Client Project)
         location: Remote
-        start_date: 2025
-        end_date: 2025
+        start_date: 2025-08
+        end_date: 2025-09
         highlights:
-          - Delivered 98% extraction accuracy and 8x memory reduction by building a zero-shot multimodal parsing pipeline with Qwen 2.5 VL and 4-bit GGUF quantization on CPU-only inference.
-          - Built a batch engine for ZIP archives with 1000+ images and exported structured outputs to Excel for delivery.
+          - Engineered a **low-latency, zero-shot multimodal** document parsing pipeline integrating **Qwen-2.5-VL with 4-bit GGUF quantization (llama.cpp)** for high-efficiency CPU inference.
+          - Achieved **98% extraction accuracy** and an **8× reduction in memory footprint** across high-throughput batch processing pipelines.
 
       - company: IIT Jodhpur
         position: Research Intern
         location: Jodhpur, India
-        start_date: 2025
-        end_date: 2025
+        start_date: 2025-05
+        end_date: 2025-07
         highlights:
-          - Architected a multimodal deep learning model for driver behavior classification robust to missing sensors and modality drop.
-          - Engineered a three-stage training pipeline with progressive modality dropout, achieving 98% accuracy with minimal degradation.
+          - Architected a **multimodal deep learning model** for driver behavior classification, robust to real-world sensor failures and missing data.
+          - Engineered a **three-stage training pipeline** with progressive modality dropout, achieving **98% accuracy** with minimal degradation in single-modality scenarios.
 
       - company: Borde
         position: MLOps Intern
         location: Remote
-        start_date: 2023
-        end_date: 2025
+        start_date: 2023-05
+        end_date: 2025-05
         highlights:
-          - Improved data quality for a 120K+ image dataset using end-to-end preprocessing and annotation pipelines in Python and OpenCV.
-          - Improved overall model accuracy by 60% and raised precision on low-performing labels by 150% via YOLOv5 fine-tuning and production deployment on AWS and Azure.
+          - Designed and operationalized automated **end-to-end data preprocessing and feature engineering pipelines** for 120K+ images using Python, OpenCV, and automated validation scripts.
+          - Fine-tuned, **containerized (Docker)**, and deployed vision models across **Azure** and **AWS GPU instances**, with automated monitoring, experiment tracking via **MLflow**, and **CI/CD workflows**.
+          - Drove a **60% overall model accuracy** improvement and a **150% precision lift** on critical minority classes.
 
       - company: IIT Guwahati
         position: Research Intern
         location: Guwahati, India
-        start_date: 2024
-        end_date: 2024
+        start_date: 2024-05
+        end_date: 2024-07
         highlights:
-          - Achieved 96% deep learning and 88% machine learning accuracy in speech recognition using SVM, KNN, ResNet, and MobileNet.
-          - Built an MFC C++ GUI for t-SNE-based cluster visualization of learned audio features.
+          - Achieved **96% accuracy** (deep learning) and **88% accuracy** (machine learning) on a speech recognition task with SVM, KNN, ResNet, and MobileNet models.
+          - Built a GUI cluster visualization tool in **MFC C++** displaying t-SNE audio feature groupings for research analysis.
 
     Projects:
+      - name: Teaching Gemma-3 to Reason
+        url: https://github.com/JyotirmoyKonwar/Tunix_Gemma3
+        summary: 3-stage SFT + GRPO fine-tuning pipeline for reasoning in Gemma-3.
+        highlights:
+          - Drove a **12% gain in answer accuracy** and a **47% surge in reasoning quality**.
+          - Developed a custom composite reward function with weighted objectives (logical coherence, mathematical precision, strict XML compliance).
+
+      - name: Dynamic Model Router for Tau
+        summary: Runtime LLM routing engine for the Tau coding agent.
+        highlights:
+          - Dynamically selects models based on task complexity, context-window requirements, latency, cost, and model capabilities through configurable routing policies.
+          - Modular routing layer with session-aware model switching, fallback handling, and observability hooks, decoupled from the core agent loop.
+
+      - name: Secure Multi-Tenant RAG System
+        url: https://github.com/JyotirmoyKonwar/Role_based_Agentic_Chatbot
+        summary: Enterprise RAG pipeline with role-based access control.
+        highlights:
+          - Built with **LLaMA 3** and **ChromaDB**, enforcing granular **RBAC** via metadata filtering for strict multi-tenant data isolation.
+          - High-throughput **FastAPI** microservices with a **Streamlit** frontend and stateful session management.
+
+      - name: DarkGuardRL
+        url: https://github.com/JyotirmoyKonwar/Eno_E
+        summary: Self-play RL for dark pattern detection with Qwen3-4B (SFT + GRPO).
+        highlights:
+          - Designed a Gym-compatible RL environment with discrete, verifiable reward functions for adversarial decision-making.
+          - Achieved a **+30–50 ELO improvement** over baseline within 500 training steps with strict multi-objective reward shaping.
+
+      - name: Voice-Powered Multimodal RAG Agent
+        url: https://github.com/JyotirmoyKonwar/Voice-MultiMod-RAG-Agentina
+        summary: Agentic RAG system with LangGraph and NVIDIA Nemotron for voice-driven multimodal retrieval.
+        highlights:
+          - ReAct-based agentic loop with cross-encoder reranking and Llama-3.1-Nemotron-Safety-Guard for PII detection and content moderation.
+
+      - name: LLM-Augmented Graph Neural Network for Fraud Detection
+        url: https://github.com/JyotirmoyKonwar/LLM_Enhanced_GNN_Fraud_Detection
+        summary: SLM + Skip-GNN architecture for text-attributed graph fraud detection.
+        highlights:
+          - Alternating PEFT/LoRA fine-tuning of an SLM with a composite loss and semantic k-hop neighbor sampling.
+          - Dual-branch Skip-GNN with multi-head attention fusion, outperforming GCN/GAT baselines by **5% AUC-ROC/F1**.
+
+      - name: Diffusion Language Model from Scratch
+        url: https://github.com/JyotirmoyKonwar/Tiny_Stories_Diffusion
+        summary: Discrete non-autoregressive diffusion LM trained on TinyStories.
+        highlights:
+          - Parallel, confidence-based iterative unmasking with SwiGLU, RoPE, and BPE tokenization in PyTorch.
+          - Reached a perplexity of **18.88**, outperforming GPT-2's baseline of 19.93.
+
       - name: Smart Product Pricing Ensemble Model
-        summary: Designed a multimodal ensemble model for product pricing prediction in Amazon ML Challenge 2025.
+        url: https://github.com/JyotirmoyKonwar/Amazon_ML_Challenge_2025
+        summary: Multimodal pricing model for Amazon ML Challenge 2025.
         highlights:
-          - Ranked 52 out of 9000+ teams (Top 0.6%).
-          - Built DeBERTa, ELECTRA, and CLIP-ViT dual-stream architecture with attention-based fusion.
+          - Ranked **52 out of 9,000+ teams (Top 0.6%)**.
+          - Dual-stream DeBERTa, ELECTRA, and CLIP-ViT architecture with attention-based fusion and residual blocks.
 
-      - name: Multi-View Multi-Objective Extractive Summarizer
-        summary: Explored Unsupervised Techniques for Extractive Document and Text Summarization.
+      - name: Agent Derma Doc Chatbot
+        url: https://github.com/JyotirmoyKonwar/Agent_Derma_Doc_Chat
+        summary: Multimodal medical agent deployed on Hugging Face Spaces.
         highlights:
-          - Designed a multi-objective clustering framework using NSGA-II.
-          - Integrated multi-view document representations by combining TF-IDF, BERT, and FinBERT embeddings.
-
-      - name: Agentic Derma Doctor Chatbot
-        summary: Deployed an agentic multimodal medical RAG chatbot on Hugging Face Spaces using Gradio.
-        highlights:
-          - Combined Swin Transformer-based skin classification with a retrieval-augmented medical QA pipeline.
-          - Fine-tuned Gemma3 270M and Swin Transformer and integrated LangGraph/LangChain for context-aware responses.
-
-      - name: Whiteboard to Workflow Sprint Master
-        summary: Created a Multimodal AI tool for team meetings and brainstorming sessions for creating tickets and meeting MOMs.
-        highlights:
-          - Project for Google DeepMind - Vibe code with Gemini 3 on AI Studio on Kaggle.
-
-      - name: Tiny Stories Diffusion Language Model
-        summary: A Small Diffusion Language Model to tell you and your kids tiny stories.
-        highlights:
-          - Implemented diffusion-style token generation that iteratively decodes tokens where the model predicts tokens over multiple steps.
+          - Fine-tuned Swin Transformer for skin disease classification with a Gradio interface.
+          - Fine-tuned Qwen-2.5-1.5B with Unsloth and a LangChain RAG pipeline over Pinecone for medical QA.
 
     Publications:
       - title: A comprehensive survey of DeepFake Technology to challenge fake media content
         authors:
+          - P. Saikia
           - J. Konwar
-          - Dr. P. Saikia
-        publisher: IEEE Transaction (in-progress)
-        summary: A survey on the history of Deepfake generation and detection techniques and current SOTA architectures and models.
+        publisher: Under review
+        summary: A survey on the history of deepfake generation and detection techniques and current SOTA architectures and models.
 
     Awards:
-      - title: Amazon ML Challenge 2025
-        date: 2025
-        awarder: Nationwide competition
-        summary: Ranked 52nd in India.
-
-      - title: Meta PyTorch OpenEnv Hackathon
-        awarder: Meta
-        summary: Grand Finalist.
-
-      - title: Dark Patterns Buster Hackathon
-        awarder: Department of Consumer Affairs
-        summary: Grand Finalist.
+      - title: Siemens Aavishkar Hackathon 2026
+        date: 2026
+        awarder: Siemens
+        url: https://www.linkedin.com/posts/jyotirmoy-konwar_siemensaavishkar-hackathon-siemens-ugcPost-7478142500654723072-QT-k/
+        summary: Winner.
 
       - title: GATE DA 2026
         date: 2026
         awarder: Graduate Aptitude Test in Engineering
-        summary: Ranked in the top 91.18 percentile.
+        summary: Qualified with AIR 6110.
 
-      - title: JEE Main
-        awarder: National Testing Agency
-        summary: AIR 50048 (95 percentile).
+      - title: Meta PyTorch OpenEnv Hackathon
+        awarder: Meta
+        summary: Grand Finalist (Top 100 out of 3,500+ teams).
 
-      - title: JEE Advanced
-        awarder: IIT admissions examination
-        summary: Qualified with AIR around 19K (Top 2%).
+      - title: Amazon ML Challenge 2025
+        date: 2025
+        awarder: Amazon
+        url: https://drive.google.com/file/d/1cnPIcA-qzITGTaCjLiuob0xrKvttbzTE/view?usp=sharing
+        summary: Ranked 52nd across India (Top 0.6% of 9,000+ teams).
+
+      - title: Dark Patterns Buster Hackathon
+        awarder: Department of Consumer Affairs, Government of India
+        summary: Grand Finalist.
 
     Skills:
       - name: Programming Languages
         keywords:
           - Python
-          - C
-          - C++
+          - C/C++
           - MATLAB
-          - Bash
           - SQL
+          - Bash
 
       - name: Libraries and Frameworks
         keywords:
           - PyTorch
           - TensorFlow
           - Keras
+          - NumPy
+          - Pandas
+          - Matplotlib
+          - Seaborn
           - CUDA
           - Triton
           - Scikit-learn
@@ -160,32 +198,44 @@ cv:
           - Hugging Face
           - LangChain
           - LangGraph
+          - LangFuse
+          - LangSmith
           - Guardrails
-          - Librosa
-          - NumPy
-          - Pandas
-          - Matplotlib
-          - Seaborn
           - MongoDB
           - PostgreSQL
+          - Vector Databases
 
-      - name: MLOps and Deployment
+      - name: Cloud and MLOps
         keywords:
           - MLflow
           - DVC
           - Apache Airflow
           - Docker
-          - Kubernetes
           - FastAPI
           - Flask
-          - Weights and Biases
+          - Weights & Biases
           - ChromaDB
           - Pinecone
-          - Azure
+          - Azure ML
           - AWS
+          - Databricks
           - Git
           - Linux
           - Postman
           - Raspberry Pi
           - Ollama
           - llama.cpp
+          - vLLM
+
+      - name: GenAI and LLMs
+        keywords:
+          - RAG
+          - Agentic AI
+          - Prompt and Context Engineering
+          - SFT
+          - GRPO
+          - PPO
+          - PEFT / LoRA / QLoRA
+          - Multimodal AI
+          - TRL
+          - Unsloth

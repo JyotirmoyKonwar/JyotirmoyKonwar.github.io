@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: AI/ML Engineer | Integrated Dual Degree (CS + AI) at RGIPT
+subtitle: AI/ML Engineer · LLMs, Agentic AI & Multimodal Systems · Dual Degree (CS + AI) at RGIPT
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: on_myputer.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>India</p>
@@ -27,8 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Jyotirmoy Konwar, an Integrated Dual Degree student at Rajiv Gandhi Institute of Petroleum Technology pursuing B.Tech in Computer Science and M.Tech in Artificial Intelligence (2022-2027). I work across machine learning, multimodal AI, and agentic systems, with experience in deep learning research, MLOps, and applied GenAI product development.
+I am Jyotirmoy Konwar, an AI/ML engineer and Dual Degree student at Rajiv Gandhi Institute of Petroleum Technology, pursuing a B.Tech in Computer Science and an M.Tech in Artificial Intelligence (2022–2027). I focus on LLMs, multimodal AI, agentic systems, model alignment, and efficient inference.
 
-I have worked on multimodal parsing systems, secure RAG applications, medical agentic chatbots, and reinforcement learning for reasoning-focused language model tuning. I am an upcoming GenAI Summer Intern at Siemens (Bengaluru), and I am especially interested in building production-ready AI systems that combine strong model performance with practical deployment constraints.
+Most recently I was a Technical Intern at **Siemens** (Bengaluru), where I built an autonomous agentic code-repair package that fixes CI/CD build failures with verifiable patches, and an LLM evaluation framework for legacy code migration agents. Before that I worked as an MLOps Intern at **Borde**, did research internships at **IIT Jodhpur** and **IIT Guwahati**, and shipped a quantized multimodal document-parsing pipeline for a freelance client.
 
-Outside coursework, I actively participate in competitive ML and hackathons, and I enjoy building end-to-end projects that move from modeling to deployment.
+My projects span RLHF/GRPO fine-tuning (teaching Gemma-3 to reason), LLM routing for coding agents, secure RAG, graph learning, and diffusion language models. I won the **Siemens Aavishkar Hackathon 2026**, was a Grand Finalist at the **Meta PyTorch OpenEnv Hackathon**, and ranked **52nd in the Amazon ML Challenge 2025**.
+
+I enjoy taking ideas end to end, from research and modeling through deployment, evaluation, and MLOps.

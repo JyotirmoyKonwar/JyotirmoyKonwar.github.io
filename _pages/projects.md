@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Selected machine learning, GenAI, and agentic AI projects.
+description: LLM training, agentic AI, and machine learning projects.
 nav: true
 nav_order: 3
-display_categories: [Data Science, NLP, Agentic AI]
+display_categories: [LLM Training, Agentic AI, Machine Learning]
 horizontal: false
 ---
 

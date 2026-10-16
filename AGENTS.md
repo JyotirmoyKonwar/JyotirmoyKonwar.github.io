@@ -10,7 +10,7 @@ A simple, clean, and responsive Jekyll theme for academics.
 - **Need setup/deployment help?** → [INSTALL.md](INSTALL.md)
 - **Troubleshooting & FAQ?** → [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
 - **Customization & theming?** → [CUSTOMIZE.md](CUSTOMIZE.md)
-- **Quick 5-min start?** → [QUICKSTART.md](QUICKSTART.md)
+- **Updating site content (bio, CV, projects)?** → [HOW_TO_UPDATE.md](HOW_TO_UPDATE.md)
 
 ## Essential Commands
 

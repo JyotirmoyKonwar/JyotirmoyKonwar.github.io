@@ -142,7 +142,7 @@ The project is structured as follows, focusing on the main components that you w
 
 ## Configuration
 
-The configuration file [\_config.yml](_config.yml) contains the main configuration of the website. Most of the settings is self-explanatory and we also tried to add as much comments as possible. If you have any questions, please check if it was not already answered in the [FAQ](FAQ.md).
+The configuration file [\_config.yml](_config.yml) contains the main configuration of the website. Most of the settings is self-explanatory and we also tried to add as much comments as possible. If you have any questions, please check if it was not already answered in the [FAQ](https://github.com/alshedivat/al-folio/blob/main/FAQ.md).
 
 > Note that the `url` and `baseurl` settings are used to generate the links of the website, as explained in the [install instructions](INSTALL.md).
 
@@ -1089,8 +1089,8 @@ To update a library:
 
      Replace `[FILE_URL]` with the URL of the library file. Then, prefix the result with `sha384-` and use it in the `integrity` field.
      For detailed instructions on updating specific libraries, see the FAQ:
-     - [How can I update Academicons version](FAQ.md#how-can-i-update-academicons-version-on-the-template)
-     - [How can I update Font Awesome version](FAQ.md#how-can-i-update-font-awesome-version-on-the-template)
+     - [How can I update Academicons version](https://github.com/alshedivat/al-folio/blob/main/FAQ.md#how-can-i-update-academicons-version-on-the-template)
+     - [How can I update Font Awesome version](https://github.com/alshedivat/al-folio/blob/main/FAQ.md#how-can-i-update-font-awesome-version-on-the-template)
 
 ## Removing content
 
